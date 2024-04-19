@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Xiaomi_Kernel_OpenSource-sdm845",
-      "repo": "https://github.com/Akitlove/Xiaomi_Kernel_OpenSource-sdm845",
-      "branch": "88-zstd",
-      "device": "ursa",
-      "defconfig": "ursa_user_defconfig"
+      "repo": "https://github.com/kanerty/Xiaomi_Kernel_OpenSource",
+      "branch": "picasso-r-oss",
+      "device": "picasso",
+      "defconfig": "picasso_user"
     },
     "withKernelSU": true,
     "toolchains": [
