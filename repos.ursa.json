@@ -18,21 +18,21 @@
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "clang",
+      "CC": "proton-clang/bin/clang",
       "externalCommand": {
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-        "AR": "llvm-ar",
-        "NM": "llvm-nm",
-        "OBJCOPY": "llvm-objcopy",
-        "OBJDUMP": "llvm-objdump",
-        "READELF": "llvm-readelf",
-        "OBJSIZE": "llvm-size",
-        "STRIP": "llvm-strip",
-        "HOSTCC": "clang",
-        "HOSTCXX": "clang++",
-        "LLVM_AR": "llvm-ar",
-        "LLVM_DIS": "llvm-dis"
+        "AR": "proton-clang/bin/llvm-ar",
+        "NM": "proton-clang/bin/llvm-nm",
+        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
+        "OBJDUMP": "proton-clang/bin/llvm-objdump",
+        "READELF": "proton-clang/bin/llvm-readelf",
+        "OBJSIZE": "proton-clang/bin/llvm-size",
+        "STRIP": "proton-clang/bin/llvm-strip",
+        "HOSTCC": "proton-clang/bin/clang",
+        "HOSTCXX": "proton-clang/bin/clang++",
+        "LLVM_AR": "proton-clang/bin/llvm-ar",
+        "LLVM_DIS": "proton-clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
